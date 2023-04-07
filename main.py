@@ -18,8 +18,8 @@ from datetime import datetime
 # firebase access
 cred = credentials.Certificate("serviceAccountKey.json")
 firebase_admin.initialize_app(cred,{
-    'databaseURL':"https://facerealtime-787b9-default-rtdb.firebaseio.com/",
-    'storageBucket': "facerealtime-787b9.appspot.com"
+    'databaseURL':"add you firebase url here",
+    'storageBucket': "add you firebase bucket url here"
 })
 
 bucket = storage.bucket()
