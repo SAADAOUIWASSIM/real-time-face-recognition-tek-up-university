@@ -6,7 +6,7 @@ from firebase_admin import db
 
 cred = credentials.Certificate("serviceAccountKey.json")
 firebase_admin.initialize_app(cred,{
-    'databaseURL':"https://facerealtime-787b9-default-rtdb.firebaseio.com/"
+    'databaseURL':"add your firebase url here"
 })
 
 ref = db.reference('Students')
